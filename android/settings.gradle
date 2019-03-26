@@ -1,7 +1,5 @@
 rootProject.name = 'Asd'
-
-include ':linkedin-sdk'
-include ':react-native-linkedin-sdk'
-project(':react-native-linkedin-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linkedin-sdk/android')
+include ':react-native-cookies'
+project(':react-native-cookies').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-cookies/android')
 
 include ':app'
