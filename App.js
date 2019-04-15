@@ -93,8 +93,8 @@ export default class App extends React.Component {
               <Text style={{ color: 'white' }}>LogOut</Text>
             </TouchableOpacity>
             : <LinkedInModal
-              clientID="8117ln3gimnb9i"
-              clientSecret="Qu9K6LZmFOIP2cms"
+              clientID={clientID}
+              clientSecret={clientSecret}
               redirectUri="https://linkedin.com"
               permissions={['r_liteprofile', 'r_emailaddress']}
               renderButton={() => <Image source={require("./src/assets/signinbtn.png")} style={{ height: 60, width: 270, resizeMode: "contain" }} />}
